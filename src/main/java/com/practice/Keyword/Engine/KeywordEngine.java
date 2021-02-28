@@ -81,6 +81,11 @@ public class KeywordEngine {
 			case "open URL":
 				
 				driver.get(value);
+				break;
+				
+			case "quit":
+				
+				driver.quit();
 
 			default:
 				break;
